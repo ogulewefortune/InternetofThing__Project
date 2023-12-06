@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="aboutUsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutX="44.0" layoutY="53.0" prefHeight="325.0" prefWidth="421.0" text="About Venos Technology&#10;&#10;At Venos Technology, we're dedicated to crafting &#10;intuitive solutions for seamless integration and management &#10;of smart devices. Our mission is to empower&#10; users with a comprehensive and user-friendly&#10; GUI application that simplifies control and &#10;automation across a spectrum of smart &#10;technologies, including Smart Locks &#10;and security systems.&#10;&#10;Product Overview&#10;&#10;Venos Technology software product is a &#10;user-friendly GUI application designed for&#10; effortless integration with various smart&#10; devices. Our system operates on an &#10;Object-oriented Client Server Framework&#10; (OCSF), ensuring a robust client-server &#10;architecture.&#10;&#10;Device Integration&#10;&#10;Our application utilizes standard communication&#10; protocols like Wi-Fi for easy discovery &#10;and connection to compatible smart devices.&#10;&#10;User Interface&#10;&#10;We offer a desktop application that provides&#10; a smooth, native user interface for device setup, &#10;control, and monitoring, ensuring optimal&#10; performance and usability.&#10;&#10;Features and Functionalities&#10;&#10;- Device Management: Easily add, configure,&#10; and remove smart devices, ensuring compatibility &#10;with a wide range of types.&#10;- Remote Control: Manage devices remotely&#10; from a mobile app or web dashboard, &#10;enabling actions like adjusting thermostat settings, &#10;changing light colors, and more.&#10;- Automation Engine: Create custom routines and&#10; schedules triggered by conditions like time of day or device status.&#10;- Notifications and Alerts: Receive real-time alerts&#10; regarding device status changes or security&#10; events on your mobile app.&#10;&#10;Security&#10;&#10;We prioritize robust authentication and authorization&#10; mechanisms to ensure only authorized &#10;users access and control devices.&#10;&#10;Data Storage and Analytics&#10;&#10;User data, device configurations, and activity &#10;logs are securely stored in databases. &#10;Integration with analytics tools allows insights &#10;into user behaviors and device usage patterns.&#10;&#10;Development Technologies&#10;&#10;Our software system is built using a &#10;technology stack that includes Java, &#10;SQL databases, and GUI scene builders&#10; to create a reliable and efficient system.&#10;&#10;Product Specification: UML Functional Models&#10;&#10;We present a series of UML Functional Models &#10;that include use case diagrams, step-by-step&#10; descriptions, and UML diagrams for each&#10; feature as development progresses.&#10;.&#10;&#10;Venos Technology is committed to innovation,&#10; user-centric design, and technological excellence. &#10;For inquiries or further information, contact us &#10;at Venostech@gmail.com or call us at&#10; 1-807-234-2344. Join us in embracing a smarter,&#10; more connected future with Venos Technology." />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Aboutbackbuttonpressed" style="-fx-background-color: black; -fx-text-fill: white;" text="Back" />
+      <Label layoutX="173.0" layoutY="9.0" prefHeight="36.0" prefWidth="129.0" text="About Us">
+         <font>
+            <Font name="Heiti TC Light" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

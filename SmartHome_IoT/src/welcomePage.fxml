@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="welcomePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController">
+   <children>
+      <ImageView fitHeight="304.0" fitWidth="501.0" layoutX="-3.0" layoutY="2.0">
+         <image>
+            <Image url="@hello.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="297.0" fitWidth="269.0" layoutX="331.0" layoutY="11.0">
+         <image>
+            <Image url="@robot.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="14.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="600.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.11269493401050568" green="0.1490415781736374" blue="0.6578947305679321" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8999999761581421" green="0.9909380078315735" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="85.0" layoutY="14.0" prefHeight="86.0" prefWidth="355.0" text="Smart  Home  Automation&#10;         System" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5952380952380952" endY="0.34285714285714286">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5841049551963806" green="0.5462962985038757" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="-2.0" layoutY="288.0" mnemonicParsing="false" onAction="#conitinueButtonPressed" prefHeight="113.0" prefWidth="600.0" style="-fx-text-fill: blue; -fx-background-color: white;" text="Click here to continue">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="223.0" layoutY="372.0" opacity="0.29" text="Powered By VENOStech">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="securityCameraPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="290.0" fitWidth="293.0" layoutX="348.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@camera.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="71.0" prefHeight="53.0" prefWidth="324.0" text="Smart  Camera">
+         <font>
+            <Font name="Heiti TC Light" size="39.0" />
+         </font>
+      </Label>
+      <Button layoutX="39.0" layoutY="18.0" mnemonicParsing="false" onAction="#returnCameraButton" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: black;" text="Return" textFill="WHITE" />
+      <Label layoutX="39.0" layoutY="139.0" prefHeight="26.0" prefWidth="72.0" text="Footage">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="214.0" prefHeight="26.0" prefWidth="49.0" text="Angle">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="notificationCameraArea" editable="false" layoutX="39.0" layoutY="286.0" prefHeight="80.0" prefWidth="293.0" style="-fx-background-color: white;" />
+      <Label layoutX="39.0" layoutY="260.0" prefHeight="26.0" prefWidth="89.0" text="Notification">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fromHourCamera" layoutX="105.0" layoutY="140.0" onKeyTyped="#fromHourCameraKey" prefHeight="26.0" prefWidth="37.0" />
+      <TextField fx:id="fromMinuteCamera" layoutX="155.0" layoutY="139.0" onKeyTyped="#fromMinuteCameraKey" prefHeight="26.0" prefWidth="37.0" />
+      <TextField fx:id="toHourCamera" layoutX="245.0" layoutY="140.0" onKeyTyped="#toHourCameraKey" prefHeight="26.0" prefWidth="37.0" />
+      <TextField fx:id="toMinuteCamera" layoutX="295.0" layoutY="140.0" onKeyTyped="#toMinuteCameraKey" prefHeight="26.0" prefWidth="37.0" />
+      <Label layoutX="213.0" layoutY="139.0" prefHeight="26.0" prefWidth="18.0" text="to">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="140.0" prefHeight="26.0" prefWidth="8.0" text=":">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="140.0" prefHeight="26.0" prefWidth="2.0" text=":">
+         <font>
+            <Font name="Heiti TC Light" size="15.0" />
+         </font>
+      </Label>
+      <Slider fx:id="sliderAngleCamera" blockIncrement="0.0" layoutX="110.0" layoutY="219.0" majorTickUnit="45.0" max="180.0" minorTickCount="0" prefHeight="15.0" prefWidth="225.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="90.0" />
+      <Button layoutX="174.0" layoutY="182.0" mnemonicParsing="false" onAction="#showFootageButtonPressed" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: black; -fx-text-fill: white;" text="Show" />
+      <Label layoutX="315.0" layoutY="231.0" opacity="0.65" prefHeight="30.0" prefWidth="26.0" text="180">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Line endX="-7.946136474609375" endY="-0.88006591796875" layoutX="332.0" layoutY="238.0" opacity="0.4" startX="-7.946136474609375" startY="-5.1653900146484375" />
+   </children>
+</Pane>

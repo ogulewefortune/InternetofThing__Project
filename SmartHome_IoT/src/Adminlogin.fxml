@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="AdminloginGridpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Button layoutY="28.0" mnemonicParsing="false" onAction="#Loginbuttonpressed" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: black;" text="Login" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="1.0" layoutY="40.0" prefHeight="16.0" prefWidth="68.0" text="E-mail">
+               <font>
+                  <Font name="Heiti TC Light" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label layoutY="32.0" prefHeight="16.0" prefWidth="68.0" text="Passord">
+               <font>
+                  <Font name="Heiti TC Light" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AdminEmailTextField" layoutY="-13.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter Email" />
+            <PasswordField fx:id="AdminpasswordTextField" layoutY="54.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter password" />
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+            <Button layoutX="23.0" layoutY="22.0" mnemonicParsing="false" onAction="#backbuttonpressed" prefHeight="36.0" prefWidth="68.0" style="-fx-background-color: black;" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Label layoutX="-17.0" layoutY="-10.0" prefHeight="100.0" prefWidth="321.0" text="Smart Home Automation System">
+               <font>
+                  <Font name="Heiti TC Medium" size="20.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.4513064133016627" startX="0.7719714964370546" startY="0.5510688836104513">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.13425925374031067" green="0.8124228119850159" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <children>
+            <Label layoutY="33.0" text="Don't have and Account " />
+            <Button layoutX="133.0" layoutY="27.0" mnemonicParsing="false" onAction="#Registerbuttonpressed" style="-fx-background-color: white;" text="Register" textFill="#1f5ccd" />
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="147.0" layoutX="34.0" layoutY="15.0">
+               <image>
+                  <Image url="@icons8-admin-100-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
