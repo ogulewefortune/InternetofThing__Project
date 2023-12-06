@@ -1,6 +1,7 @@
 # InternetofThing__Project
 
 <img width="596" alt="Screenshot 2023-12-05 at 8 21 14 PM" src="https://github.com/ogulewefortune/InternetofThing__Project/assets/74354924/798d9df1-487c-44b2-aad6-870dfb5229b4">
+Contributors HungDuong01
 
 # Introduction
 Step into our Smart Home IoT Project! We're dedicated to crafting an intuitive, user-friendly smart home system empowered by IoT tech. Seamlessly merging smart devices and sensors, our aim is to automate home functions and establish a centralized control accessible through a mobile or web application.
