@@ -8,7 +8,7 @@
  *    Specification Document 
  *    Design Document
  * 
- * File created by Duong Chan Hung on 11/08/2023
+ * File created by fortune on 11/08/2023
  * 
  * Associated Files: IoTController.java (one to many)
  *                   SmartLight.java (subclass)
