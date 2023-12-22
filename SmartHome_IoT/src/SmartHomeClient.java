@@ -10,7 +10,7 @@
 * Design Document
 
 
-* File created by Said Hassan
+* File created by fortune
 
 * Associated file:
 
